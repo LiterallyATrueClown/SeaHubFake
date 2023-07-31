@@ -1,4 +1,4 @@
-local uilibrary = require(game.ReplicatedStorage.SEAUILIB)
+local uilibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/LiterallyATrueClown/SeaHubFake/main/SeaHubUILIBFake.lua", true))()
 local windowz = uilibrary:CreateWindow("Sea Hub", true)
 
 local Page1 = windowz:CreatePage("Page I")
